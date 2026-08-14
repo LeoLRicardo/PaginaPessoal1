@@ -1,0 +1,26 @@
+:root{
+    --cor-fundo: #161614;
+    --cor-texto: #bec092;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: "Amarante", serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header p{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+}
