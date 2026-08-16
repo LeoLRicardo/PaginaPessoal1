@@ -5,8 +5,9 @@
 }
 :root{
     --cor-fundo: #161614;
-    --cor-texto: #a1a476;
-    --cor-link: #e2e5b3;
+    --cor-texto: #788d63;
+    --cor-link: #e6e9cc;
+    --cor-sobre: #c7e5b3;
 }
 body{
     background-color: var(--cor-fundo);
@@ -52,6 +53,7 @@ section h1{
 }
 section p{
     margin-bottom: 2rem;
+    color: var(--cor-sobre);
 }
 img{
     max-width: 40%;
