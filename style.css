@@ -8,7 +8,9 @@
     --cor-texto: #788d63;
     --cor-link: #e6e9cc;
     --cor-sobre: #c7e5b3;
-    --cor-selecionado: #314d15;
+    --cor-selecionado: #a3e635;
+}
+h1 { font-family: "Amarante", serif; 
 }
 body{
     background-color: var(--cor-fundo);
@@ -28,6 +30,7 @@ header p{
     margin-top: 1rem;
 }
 nav ul{
+    max-width: 600px;
     display: flex;
     justify-content: center;
     list-style: none;
@@ -44,6 +47,7 @@ nav ul{
     color: var(--cor-selecionado);
     font-size: 1.5rem;
 }
+.navegador:hover { color: var(--cor-selecionado); }
 
 main{
     display: flex;
@@ -63,12 +67,28 @@ section p{
     color: var(--cor-sobre);
 }
 img{
-    max-width: 40%;
-    height: auto;
+    max-width: 100%;
+    border-radius: 12px;
 }
 footer{
-    width: 40%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.container-imagem {
+    position: relative;
+    display: inline-block; 
+    max-width: 100%; 
+}
+
+.rodape-imagem {
+    position: absolute;
+    bottom: 15px;
+    right: 15px; 
+    width: auto; 
+    margin: 0;
+    
+    background-color: rgba(19, 19, 17, 0.795); 
+    padding: 8px 12px;
+    border-radius: 8px;
 }
