@@ -7,7 +7,7 @@
     --cor-fundo: #161614;
     --cor-texto: #788d63;
     --cor-link: #e6e9cc;
-    --cor-sobre: #c7e5b3;
+    --cor-secoes: #c7e5b3;
     --cor-selecionado: #a3e635;
 }
 h1 { font-family: "Amarante", serif; 
@@ -64,7 +64,7 @@ section h1{
 }
 section p{
     margin-bottom: 2rem;
-    color: var(--cor-sobre);
+    color: var(--cor-secoes);
 }
 img{
     max-width: 100%;
