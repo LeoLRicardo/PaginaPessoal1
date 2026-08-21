@@ -6,9 +6,10 @@
 :root{
     --cor-fundo: #161614;
     --cor-texto: #788d63;
-    --cor-link: #e6e9cc;
+    --cor-navegador: #e6e9cc;
     --cor-secoes: #c7e5b3;
     --cor-selecionado: #a3e635;
+    --cor-link: rgb(116, 167, 82);
 }
 h1 { font-family: "Amarante", serif; 
 }
@@ -29,6 +30,7 @@ header p{
     justify-content: center;
     margin-top: 1rem;
 }
+
 nav ul{
     max-width: 600px;
     display: flex;
@@ -37,9 +39,10 @@ nav ul{
     gap: 2.5rem;
     margin-top: 2rem;
 }
+
 .navegador{
     text-decoration: none;
-    color: var(--cor-link);
+    color: var(--cor-navegador);
     font-size: 1.5rem;
 }
 .navegadorselecionado{
@@ -47,7 +50,9 @@ nav ul{
     color: var(--cor-selecionado);
     font-size: 1.5rem;
 }
-.navegador:hover { color: var(--cor-selecionado); }
+.navegador:hover { 
+    color: var(--cor-selecionado); 
+}
 
 main{
     display: flex;
@@ -55,10 +60,10 @@ main{
     align-items: center;
     text-align: center;
 }
+
 section{
     max-width: 600px;
 }
-
 section h1{
     margin-bottom: 2rem;
 }
@@ -66,15 +71,22 @@ section p{
     margin-bottom: 2rem;
     color: var(--cor-secoes);
 }
+section a{
+    text-decoration: underline;
+    color: var(--cor-link);
+}
+
 img{
     max-width: 100%;
     border-radius: 12px;
 }
+
 footer{
     width: 100%;
     text-align: center;
     padding: 20px;
 }
+
 .container-imagem {
     position: relative;
     display: inline-block; 
